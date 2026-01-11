@@ -1,5 +1,4 @@
 /**
- * Guitar and Inventory classes (implements UML from the provided diagram)
  * - Guitar: serialNumber, price, builder, model, type, backWood, topWood
  * - Inventory: holds list of Guitar objects and provides add, get, search
  */
@@ -74,3 +73,4 @@ if (require.main === module) {
 	const searchResult = inv.search(criteria);
 	console.log('Search result:', searchResult && searchResult.getSerialNumber());
 }
+
